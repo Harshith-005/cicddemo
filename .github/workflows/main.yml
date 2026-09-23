@@ -15,6 +15,14 @@ jobs:
         run: 
           echo "hello world"
           echo "hi"
+      - name: Check doker
+        run: |
+          doker 
+          dokcer images
+      - name: Run docker file 
+
+        run:
+          docker run hello-worls
 
       
               
